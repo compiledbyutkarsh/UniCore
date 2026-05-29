@@ -47,18 +47,5 @@ private static final String PASSWORD = "your_password";
 mvn compile exec:java -Dexec.mainClass="com.unicore.Main"
 ```
 
-## 📁 Structure
-\```
-UniCore/
-├── src/main/java/com/unicore/
-│   ├── Main.java
-│   ├── database/      # JDBC connection
-│   ├── models/        # Student, Faculty, Course, Department
-│   ├── dao/           # Database operations
-│   ├── ui/            # Swing panels
-│   └── utils/         # UI helpers
-└── pom.xml
-\```
-
 ---
 Built by [compiledbyutkarsh](https://github.com/compiledbyutkarsh)
